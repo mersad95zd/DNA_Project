@@ -12,7 +12,6 @@ Assuming the experiment is being performed in a docker container, the following 
         apt-get install git
         apt-get install libboost-all-dev
 	apt-get install python3.6
-
 	apt-get install python-numpy
 	apt-get install python-biopython
 	apt-get install python-sklearn
