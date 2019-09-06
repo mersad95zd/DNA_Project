@@ -22,6 +22,8 @@ The encoder/decoder I used is a Reed-Solomon encoder/decoder written by Reinhard
 
 For multiple sequence alignment, I used MUSCLE command line. Please download the proper version of the software from http://www.drive5.com/muscle/downloads.htm and put it in the main directory. LSH_clustering.ipynb is written for linux, so if you are using another operating system, after downloading the proper version of MUSCLE software and putting it in the main directory, you need to change "muscle_exe" in the "multiple_alignment_muscle" function (cell #12 in LSH_clustering.ipynb) to the name of the file you dowloaded.
 
+==============
+
 # Run and enjoy!
 Now, all you need to do is to open and LSH_clustering.ipynb or simply run the following code in the command line.
 
