@@ -11,10 +11,10 @@ Assuming the experiment is being performed in a docker container, the following 
         apt-get install make
         apt-get install git
         apt-get install libboost-all-dev
-	apt-get install python3.6
-	apt-get install python-numpy
-	apt-get install python-biopython
-	apt-get install python-sklearn
+		apt-get install python3.6
+		apt-get install python-numpy
+		apt-get install python-biopython
+		apt-get install python-sklearn
 
  
 The encoder/decoder I used is a Reed-Solomon encoder/decoder written by Reinhard Heckel. Download https://github.com/reinhardh/dna_rs_coding as a zip file and extract it, then put the LSH_clustering.ipynb jupyter notebook in the main directory where you extracted that zip file.
