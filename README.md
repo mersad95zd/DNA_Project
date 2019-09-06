@@ -19,6 +19,11 @@ Assuming the experiment is being performed in a docker container, the following 
  
 The encoder/decoder I used is a Reed-Solomon encoder/decoder written by Reinhard Heckel. Download https://github.com/reinhardh/dna_rs_coding as a zip file and extract it, then put the LSH_clustering.ipynb jupyter notebook in the main directory where you extracted that zip file.
 
+compile the encoder/decoder by running the following commands:
+
+	cd simulate
+ 	make texttodna
+
 For multiple sequence alignment, I used MUSCLE command line. Please download the proper version of the software from http://www.drive5.com/muscle/downloads.htm and put it in the main directory. LSH_clustering.ipynb is written for linux, so if you are using another operating system, after downloading the proper version of MUSCLE software and putting it in the main directory, you need to change "muscle_exe" in the "multiple_alignment_muscle" function (cell #12 in LSH_clustering.ipynb) to the name of the file you dowloaded.
 
 ==============
