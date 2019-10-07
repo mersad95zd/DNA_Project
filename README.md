@@ -17,7 +17,7 @@ Assuming the experiment is being performed in a docker container, the following 
 		apt-get install python-sklearn
 
  
- <p align= "justify">The encoder/decoder I used is a Reed-Solomon encoder/decoder written by [Reinhard Heckel(https://github.com/reinhardh). Download https://github.com/reinhardh/dna_rs_coding as a zip file and extract it, then put the LSH_clustering.ipynb jupyter notebook in the main directory where you extracted that zip file. </p>
+The encoder/decoder I used is a Reed-Solomon encoder/decoder written by [Reinhard Heckel](https://github.com/reinhardh). Download https://github.com/reinhardh/dna_rs_coding as a zip file and extract it, then put the LSH_clustering.ipynb jupyter notebook in the main directory where you extracted that zip file.
 
 compile the encoder/decoder by running the following commands:
 
