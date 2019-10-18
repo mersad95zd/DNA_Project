@@ -28,7 +28,7 @@ compile the encoder/decoder by running the following commands:
 
 ==============
 
-# Run and enjoy!
+# Run and reproduce the results
 Now, all you need to do is to open and LSH_clustering.ipynb or simply run the following code in the command line.
 
 `jupyter notebook LSH_clustering.ipynb`
